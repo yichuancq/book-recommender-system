@@ -7,7 +7,7 @@
     <groupId>book-recommendation-system</groupId>
     <artifactId>book-recommendation-system</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
+
     <!-- 继承说明：这里继承SpringBoot提供的父工程 -->
     <parent>
         <groupId>org.springframework.boot</groupId>

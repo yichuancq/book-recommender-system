@@ -1,0 +1,8 @@
+
+https://blog.csdn.net/cc_want/article/details/85001762
+#
+https://github.com/guoguibing/librec
+#
+#在实际应用中订单每天增加，我们采用增量的方式计算，去掉支持度的限制
+#
+https://www.cnblogs.com/Terry-Wu/p/8357970.html
