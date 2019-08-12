@@ -1,12 +1,8 @@
 package cn.yichuan.example.Infrastructure.JPA;
 
-import cn.yichuan.example.domain.model.Goods;
+import cn.yichuan.example.domain.model.goods.Goods;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface JPABookRepository extends JpaRepository<Goods, Long> {
 
-    @Override
-    List<Goods> findAll();
 }

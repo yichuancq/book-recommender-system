@@ -1,8 +1,11 @@
-package cn.yichuan.example.domain.model;
+package cn.yichuan.example.domain.model.goods;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
+/**
+ * 商品基本信息
+ */
 @Table(name = "goods")
 @Entity
 public class Goods implements Serializable {

@@ -1,6 +1,6 @@
 package cn.yichuan.example.controller;
 
-import cn.yichuan.example.Infrastructure.BookRepository;
+import cn.yichuan.example.Infrastructure.goods.BookRepository;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

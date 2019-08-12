@@ -26,6 +26,7 @@ public class RecommendApp implements CommandLineRunner {
     }
 
     /**
+     * http://localhost:8088/swagger-ui.html#/
      * 可以定义多个组，比如本类中定义把test和demo区分开了
      * （访问页面就可以看到效果了）
      */
