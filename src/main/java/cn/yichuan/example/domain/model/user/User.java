@@ -19,7 +19,7 @@ public class User implements Serializable {
 
     //用户姓名
     @Column(name = "user_name")
-    private String UserName;
+    private String userName;
 
     public Long getId() {
         return id;
@@ -38,11 +38,11 @@ public class User implements Serializable {
     }
 
     public String getUserName() {
-        return UserName;
+        return userName;
     }
 
     public void setUserName(String userName) {
-        UserName = userName;
+        userName = userName;
     }
 
     @Override
@@ -50,7 +50,7 @@ public class User implements Serializable {
         return "User{" +
                 "id=" + id +
                 ", userId='" + userId + '\'' +
-                ", UserName='" + UserName + '\'' +
+                ", userName='" + userName + '\'' +
                 '}';
     }
 }

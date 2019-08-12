@@ -20,7 +20,7 @@ public class Goods implements Serializable {
 
     //商品名称
     @Column(name = "goods_name")
-    private String GoodsName;
+    private String goodsName;
 
     public String getGoodsId() {
         return goodsId;
@@ -31,11 +31,11 @@ public class Goods implements Serializable {
     }
 
     public String getGoodsName() {
-        return GoodsName;
+        return goodsName;
     }
 
     public void setGoodsName(String goodsName) {
-        GoodsName = goodsName;
+        goodsName = goodsName;
     }
 
     public Long getId() {
@@ -52,7 +52,7 @@ public class Goods implements Serializable {
         return "Goods{" +
                 "id='" + id + '\'' +
                 ", goodsId='" + goodsId + '\'' +
-                ", GoodsName='" + GoodsName + '\'' +
+                ", goodsName='" + goodsName + '\'' +
                 '}';
     }
 }
