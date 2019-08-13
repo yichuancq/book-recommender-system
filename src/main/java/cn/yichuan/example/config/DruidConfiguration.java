@@ -58,7 +58,7 @@ public class DruidConfiguration {
         private int maxActive;
         private int maxWait;
         private int timeBetweenEvictionRunsMillis;
-        private int minEvictableIdleTimeMillis;
+        private int minEvictableIdleTimeMillis=600000;
         private String validationQuery;
         private boolean testWhileIdle;
         private boolean testOnBorrow;
