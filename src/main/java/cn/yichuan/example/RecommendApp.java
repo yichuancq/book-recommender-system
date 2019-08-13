@@ -15,7 +15,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-
 @SpringBootApplication
 @ComponentScan("cn.yichuan")
 @EnableSwagger2
@@ -25,7 +24,14 @@ public class RecommendApp implements CommandLineRunner {
         SpringApplication.run(RecommendApp.class, args);
     }
 
+
+    @Override
+    public void run(String... args) throws Exception {
+
+    }
+
     /**
+     * http://localhost:8088/druid/login.html
      * http://localhost:8088/swagger-ui.html#/
      * 可以定义多个组，比如本类中定义把test和demo区分开了
      * （访问页面就可以看到效果了）
@@ -56,8 +62,5 @@ public class RecommendApp implements CommandLineRunner {
         return apiInfo;
     }
 
-    @Override
-    public void run(String... args) throws Exception {
 
-    }
 }

@@ -97,8 +97,6 @@ public class Apriori {
 
             for (String s2 : candidateSet) {
                 String[] strings2 = s2.split(ITEM_SPLIT);
-
-
                 boolean flag = true;
                 for (int i = 0; i < strings1.length - 1; i++) {
                     if (strings1[i].compareTo(strings2[i]) != 0) {

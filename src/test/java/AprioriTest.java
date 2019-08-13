@@ -27,14 +27,12 @@ public class AprioriTest {
         dataList.add("忒修斯之船;围城;群山之巅;你是我咫尺遥望的岸;梁光正的光;");
         dataList.add("忒修斯之船;围城;群山之巅;");
 
-
         System.out.println("=数据集合==========");
         for (String string : dataList) {
             System.out.println(string);
         }
 
         Apriori apriori2 = new Apriori();
-
         System.out.println("=频繁项集==========");
 
         Map<String, Integer> frequentSetMap = apriori2.apriori(dataList);
